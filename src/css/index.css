@@ -1,0 +1,126 @@
+.text-box{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-family:"Water Brush", cursive;
+    
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+
+}
+body{
+    background-color: #4013a5;
+}
+  
+label,p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:larger;
+}
+.container{
+    background-color:#abb8c385  ;
+    box-shadow: #ffffff79;
+    width: 70%;
+    height: 80vh;
+    display: flex;
+    padding: 30px;
+    border-radius:20px;
+    flex-direction: column;
+    backdrop-filter: blur(50px); 
+
+ 
+}
+.desc-sec{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content:flex-start;
+    gap: 1rem;
+    height: 15vh;
+}
+.desc-sec select{
+    width: 20vh;
+    height: 5vh;
+}
+.text-sec{
+    padding-top: 20px;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+}
+.text-sec textarea{
+    margin-top: 30px;
+    border-radius: 20px;
+    position: absolute;
+    inset: 0;
+    font-size: xx-large;
+    backdrop-filter: blur(5px); 
+}
+.toggle{
+    position: absolute;
+    right: 20px;
+}
+.toggle-btn{
+    margin-left: 10px;
+    height: 5vh;
+    width: 10vh;
+    border-radius: 20px; 
+
+
+}
+
+.toggle-btn:hover{
+    cursor: pointer;
+}
+.reset-save{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 10vh;
+}
+.btn{
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid black;
+    width: 9vh;
+    border-radius: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+
+.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 200px; 
+  }
+  
+  .custom-select select {
+    background: linear-gradient(145deg, #f0f0f0, #ffffff);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    appearance: none; 
+    cursor: pointer;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1), 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    outline: none;
+  }
+  
+  .custom-select select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(38, 143, 255, 0.2);
+  }
+  
